@@ -19,7 +19,7 @@ public class Conta {
 	public boolean saca(double valor) {
 		
 		if(this.saldo >= valor) {
-            saldo = this.saldo - valor;
+            this.saldo = this.saldo - valor;
             System.out.println("Operação concluída!");
             return true;
         } else { 
